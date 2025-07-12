@@ -1,0 +1,118 @@
+name: sub_merge
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 0/12 * * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: emigrate code
+        uses: actions/checkout@v3
+      - name: install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          check-latest: true
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.23'
+
+      - name: load cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      
+      - name: set timezone
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
+
+      - name: Save current directory
+        run: echo "CURRENT_DIR=$(pwd)" >> $GITHUB_ENV
+
+      - name: install dependencies
+        run: |
+          pip install -r ./requirements.txt
+      - name: Download GeoLite2-Country.mmdb.gz
+        run: |
+          curl -sSLO https://raw.githubusercontent.com/wp-statistics/GeoLite2-Country/master/GeoLite2-Country.mmdb.gz
+          gzip -df GeoLite2-Country.mmdb.gz
+      - name: run
+        run: |
+          rm -rf ./sub/*
+          wget -O subconverter.tar.gz https://github.com/asdlokj1qpi233/subconverter/releases/latest/download/subconverter_linux64.tar.gz
+          tar -zxvf subconverter.tar.gz -C ./
+          chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
+          python ./url_update.py
+          python ./gen_yaml.py
+
+      - name: Go Cache Modules
+        uses: actions/cache@v3
+        with:
+          path: ~/go/pkg/mod
+          key: go-mod-${{ hashFiles('**/go.sum') }}
+          restore-keys: go-mod-${{ hashFiles('**/go.sum') }}
+
+      - name: Install clash-speedtest
+        run: go install github.com/faceair/clash-speedtest@latest
+
+      - name: Run clash-speedtest in parallel
+        run: |
+          counter=0
+          for file in ${{ env.CURRENT_DIR }}/sub/*.yaml; do
+          (
+            ~/go/bin/clash-speedtest -c "$file" -output "${{ env.CURRENT_DIR }}/sub/${counter}.yaml"  -rename
+          ) &
+          counter=$((counter + 1))
+          done
+          wait
+      
+      - name: merge nodes
+        run: |
+          python ./merge.py
+      
+      - name: Checkout clash2singbox repository
+        uses: actions/checkout@v2
+        with:
+          repository: yuan2pro/clash2singbox  # 替换为目标仓库的所有者和仓库名
+          path: ./clash2singbox  # 下载到当前目录
+
+      - name: List files in current directory
+        run: ls  # 列出当前目录中的文件
+
+      - name: Build Go program
+        run: |
+          cd ./clash2singbox
+          go mod tidy
+          cp -f ${{ env.CURRENT_DIR }}/singbox.json ./config.json.template
+          go build -o clash2singbox ./main.go  # 根据需要调整路径
+          for file in ${{ env.CURRENT_DIR }}/sub/*.yaml; do
+            filename=$(basename "$file")
+            ./clash2singbox -i "$file" -o "${{ env.CURRENT_DIR }}/sub/${filename%.yaml}.json"
+          done
+
+      - name: commit
+        run: |
+          cd ${{ env.CURRENT_DIR }}
+          Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
+          MSG="${Emoji[$[$RANDOM % ${#Emoji[@]}]]} UPDATE TIME: $(date +%Y-%m-%d" "%H:%M:%S)"
+          echo $MSG > README.md
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -f ./sub
+          git add -f ./sub_list.json
+          git add -f ./README.md
+          git commit -m "$MSG"
+
+      - name: push
+        uses: ad-m/github-push-action@master
+        with:
+          # github_token: ${{ secrets.TOKEN }}
+          branch: main

@@ -1,0 +1,1296 @@
+{
+    "dns": {
+        "final": "localDns",
+        "rules": [
+            {
+                "disable_cache": true,
+                "outbound": "any",
+                "server": "defaultDns"
+            },
+            {
+                "clash_mode": "direct",
+                "server": "localDns"
+            },
+            {
+                "clash_mode": "global",
+                "server": "proxyDns"
+            },
+            {
+                "rule_set": "geosite-cn",
+                "server": "localDns"
+            },
+            {
+                "rule_set": "geosite-geolocation-!cn",
+                "server": "proxyDns"
+            }
+        ],
+        "servers": [
+            {
+                "address": "https://dns.google/dns-query",
+                "address_resolver": "defaultDns",
+                "address_strategy": "ipv4_only",
+                "detour": "🚀 节点选择",
+                "tag": "proxyDns"
+            },
+            {
+                "address": "223.5.5.5",
+                "address_resolver": "defaultDns",
+                "address_strategy": "ipv4_only",
+                "detour": "🟢 直连",
+                "tag": "localDns"
+            },
+            {
+                "address": "223.5.5.5",
+                "address_strategy": "ipv4_only",
+                "detour": "🟢 直连",
+                "tag": "defaultDns"
+            }
+        ],
+        "strategy": "ipv4_only"
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true
+        },
+        "clash_api": {
+            "default_mode": "Rule",
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "ui",
+            "external_ui_download_detour": "🚀 节点选择",
+            "external_ui_download_url": "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+        }
+    },
+    "inbounds": [
+        {
+            "address": "172.19.0.1/30",
+            "auto_route": true,
+            "mtu": 9000,
+            "type": "tun"
+        }
+    ],
+    "log": {
+        "disabled": false,
+        "level": "info",
+        "timestamp": true
+    },
+    "ntp": {
+        "detour": "direct",
+        "enabled": true,
+        "interval": "30m0s",
+        "server": "time.apple.com",
+        "server_port": 123
+    },
+    "outbounds": [
+        {
+            "server": "jquery.com",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 27.47 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "rayan-karma.parvaneh.dpdns.org",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "rayan-karma.parvaneh.dpdns.org"
+                    ]
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "60882caa-4e74-42a2-be70-220755fc1551",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 23.21 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "GrOUPyoUnEs.PAGEs.DEv",
+                "alpn": [
+                    "h2",
+                    "http/1.1"
+                ],
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "GrOUPyoUnEs.PAGEs.DEv"
+                    ]
+                },
+                "path": "/Orib1TRRDQo8XqMa?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "e2d6455c-9846-4502-8394-16b8c1c07b68",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "fin01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "tag": "🇫🇮 FI | ⬇️ 22.84 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "e499f276e7bd6420"
+                }
+            },
+            "type": "vless",
+            "uuid": "8a9d20f7-21b5-4f31-a6bb-c93894388514",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "edb97d47-60ed-4c39-a2ae-33002764009b",
+            "server": "dg.yuanbaojc.site",
+            "server_port": 30327,
+            "tag": "🇩🇪 DE | ⬇️ 22.19 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "dg.yuanbaojc.site",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "65a43b6e-19c5-4fab-b960-d110a07d66a4",
+            "server": "209.141.47.127",
+            "server_port": 3234,
+            "tag": "🇺🇸 US | ⬇️ 16.91 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "209.141.47.127",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "user15.SEFRlolpip192761",
+            "server": "shade.zone1.center",
+            "server_port": 443,
+            "tag": "🇩🇪 DE | ⬇️ 14.62 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "shade.zone1.center",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "mkv_SEfr-salamdash",
+                "type": "salamander"
+            }
+        },
+        {
+            "password": "wfbNl9ZVs8yjafitXo0MymVanqo",
+            "server": "52.221.249.130",
+            "server_port": 3316,
+            "tag": "🇸🇬 SG | ⬇️ 11.30 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "104.16.14.1",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 11.01 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev",
+                "alpn": [
+                    "http/1.1"
+                ],
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev"
+                    ]
+                },
+                "path": "/iqySBCJZh3v7AmTx?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "711627d2-1662-4e98-a3d6-086fd4fd4d31",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "7fae5f8e-7963-4cbe-ae1a-31cd952573a2",
+            "server": "139.185.36.59",
+            "server_port": 55000,
+            "tag": "🇦🇪 AE | ⬇️ 10.16 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "bestcf.030101.xyz",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 9.81 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "xv6.jpmj.dpdns.org",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "xv6.jpmj.dpdns.org"
+                    ]
+                },
+                "path": "/bbs?ed=2048",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "897a4bec-26b8-11e8-94be-00505695472c",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "Telegram--\u003e@Ln2Ray",
+            "server": "gavazn.lnmarketplace.net",
+            "server_port": 45000,
+            "tag": "🇳🇱 NL | ⬇️ 9.09 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "gavazn.55994421.xyz",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "Telegram--\u003e@Ln2Ray",
+                "type": "salamander"
+            }
+        },
+        {
+            "server": "212.183.88.29",
+            "server_port": 2087,
+            "tag": "🇦🇹 AT | ⬇️ 5.42 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "PosTWARE-2jm.pagEs.DeV",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "PosTWARE-2jm.pagEs.DeV"
+                    ]
+                },
+                "path": "/sA7GzJhCYXmpVes8?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "65ee27b8-88b6-45f5-a2f8-8392c4afd82d",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "a.ru.maviks.ru",
+            "server_port": 443,
+            "tag": "🇷🇺 RU | ⬇️ 24.53 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
+                }
+            },
+            "type": "vless",
+            "uuid": "e5c31f13-b10a-4e9c-bfa6-09454bc5e65c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "212.183.88.29",
+            "server_port": 2096,
+            "tag": "🇦🇹 AT | ⬇️ 22.70 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "pOStWArE-2Jm.PAgEs.dEv",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "pOStWArE-2Jm.PAgEs.dEv"
+                    ]
+                },
+                "path": "/ssqKt5JYIXEwDOMJ?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "65ee27b8-88b6-45f5-a2f8-8392c4afd82d",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "27e473f8-d610-4b04-bdf7-d0c39b47c897",
+            "server": "23.80.81.213",
+            "server_port": 45000,
+            "tag": "🇺🇸 US | ⬇️ 22.06 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "45.131.4.147",
+            "server_port": 80,
+            "tag": "🏳️ IR | ⬇️ 13.53 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "redfree8.pooriashop.ir"
+                    ]
+                },
+                "path": "/Telegram🇨🇳@v/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "104.16.243.59",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 13.37 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX.NSCl.IR",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "nginx.nscl.ir"
+                    ]
+                },
+                "path": "/config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "digitalocean.com",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 12.38 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "rayan-olala.parvaneh.dpdns.org",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "rayan-olala.parvaneh.dpdns.org"
+                    ]
+                },
+                "path": "/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "60882caa-4e74-42a2-be70-220755fc1551",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "j763tbNXzLo729FcW6m6I37M0z4",
+            "server": "18.142.225.223",
+            "server_port": 20813,
+            "tag": "🇸🇬 SG | ⬇️ 10.93 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "195.154.200.40",
+            "server_port": 15010,
+            "tag": "🇫🇷 FR | ⬇️ 10.85 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "type": "hysteria",
+            "auth_str": "dongtaiwang.com",
+            "down_mbps": 100,
+            "up_mbps": 100
+        },
+        {
+            "server": "160.79.104.251",
+            "server_port": 8880,
+            "tag": "🇺🇸 US | ⬇️ 10.55 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "cf.d3z.net"
+                    ]
+                },
+                "path": "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af",
+            "server": "79.72.81.183",
+            "server_port": 30000,
+            "tag": "🇬🇧 GB | ⬇️ 32.25 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "69.84.182.2",
+            "server_port": 443,
+            "tag": "🇺🇸 US | ⬇️ 32.25 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "free-palestine.pages.dev"
+                    ]
+                },
+                "path": "/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "5879d109-8c92-448a-801b-3f3989019934",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "188.114.97.183",
+            "server_port": 2053,
+            "tag": "🇨🇦 CA | ⬇️ 28.48 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "nOCTYq.pAGES.DEV",
+                "alpn": [
+                    "http/1.1"
+                ],
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "nOCTYq.pAGES.DEV"
+                    ]
+                },
+                "path": "/bPJ4mgkJbA7CnY7q?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "eb568786-bb3f-4f02-a25c-7183e800a0ba",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "104.16.34.128",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 28.45 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "ensHOLP-91s.pageS.DEv",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "ensHOLP-91s.pageS.DEv"
+                    ]
+                },
+                "path": "/dQMN2VQLkaE52qWD?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "188.114.96.3",
+            "server_port": 8443,
+            "tag": "🇨🇦 CA | ⬇️ 22.67 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "w325.pAges.Dev",
+                "alpn": [
+                    "http/1.1"
+                ],
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "w325.pages.dev"
+                    ]
+                },
+                "path": "/6WKNgcKo7LMqOzhb?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "88d05a33-ff36-415d-9d2c-7e1e8468e7e8",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "104.16.243.59",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 12.37 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX.NSCl.IR",
+                "alpn": [
+                    "h3"
+                ],
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "nginx.nscl.ir"
+                    ]
+                },
+                "path": "/config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "dkuKzeCa8NfCZ1dJ2t2HPOzLZZo",
+            "server": "13.213.33.141",
+            "server_port": 16027,
+            "tag": "🇸🇬 SG | ⬇️ 11.32 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "71iDmmpfZrblIGPsnWmRIvOmjsM",
+            "server": "54.255.243.99",
+            "server_port": 14988,
+            "tag": "🇸🇬 SG | ⬇️ 11.25 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "user10.khobbebinSEFRinjast128161",
+            "server": "lake.zone1.center",
+            "server_port": 443,
+            "tag": "🇸🇬 SG | ⬇️ 10.84 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "lake.zone1.center",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "The_Sefr-chibegam",
+                "type": "salamander"
+            }
+        },
+        {
+            "server": "59.153.218.14",
+            "server_port": 34045,
+            "tag": "🇻🇳 VN | ⬇️ 9.52 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
+            },
+            "type": "vless",
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "103.12.77.191",
+            "server_port": 34045,
+            "tag": "🇻🇳 VN | ⬇️ 5.22 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
+            },
+            "type": "vless",
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "160.79.104.251",
+            "server_port": 8880,
+            "tag": "🇺🇸 US | ⬇️ 54.88 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "cf.d3z.net"
+                    ]
+                },
+                "path": "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "78.159.131.107",
+            "server_port": 443,
+            "tag": "🏳️ AL | ⬇️ 37.15 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "pingless.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6vqqlSsqIQLQ-pmkPfTQ0tJ2kh3U74YqTUcn06nYagY",
+                    "short_id": "b6"
+                }
+            },
+            "type": "vless",
+            "uuid": "10f3650d-32f6-470a-b100-e29471cf3380",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "147.185.161.251",
+            "server_port": 8880,
+            "tag": "🇺🇸 US | ⬇️ 33.92 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "cf.d3z.net"
+                    ]
+                },
+                "path": "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "212.183.88.29",
+            "server_port": 2083,
+            "tag": "🇦🇹 AT | ⬇️ 28.70 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "PoStwarE-2jM.PaGeS.DEv",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "PoStwarE-2jM.PaGeS.DEv"
+                    ]
+                },
+                "path": "/PB8ZxcORP4BTVbIC?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "65ee27b8-88b6-45f5-a2f8-8392c4afd82d",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "tag": "🇨🇦 CA | ⬇️ 18.21 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "redfree8.pooriashop.ir"
+                    ]
+                },
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "190.93.244.103",
+            "server_port": 443,
+            "tag": "🇨🇷 CR | ⬇️ 16.88 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "mylearn-8zx.pages.dev",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "mylearn-8zx.pages.dev"
+                    ]
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "d4661d12-d6f7-4ff2-bd1e-fc9cdc2c9cc1",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "user10.thisismeSUperkl19201",
+            "server": "shade.zone1.center",
+            "server_port": 443,
+            "tag": "🇩🇪 DE | ⬇️ 15.31 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "shade.zone1.center",
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "obfs": {
+                "password": "mkv_SEfr-salamdash",
+                "type": "salamander"
+            }
+        },
+        {
+            "server": "104.16.34.128",
+            "server_port": 2053,
+            "tag": "🇨🇦 CA | ⬇️ 13.36 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "EnSHoLP-91s.paGES.dev",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "EnSHoLP-91s.paGES.dev"
+                    ]
+                },
+                "path": "/Ye3vH0FBXeZWh4zV?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "45.131.6.231",
+            "server_port": 80,
+            "tag": "🇧🇿 BZ | ⬇️ 11.56 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "redfree8.pooriashop.ir"
+                    ]
+                },
+                "path": "/Telegram@WangCai2",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "password": "yoP8tOtEhMTSBUPY9LwnHABvFE",
+            "server": "18.136.211.127",
+            "server_port": 14933,
+            "tag": "🇸🇬 SG | ⬇️ 11.37 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "password": "OcRI3eUwnxShJY8VBmlaoaJZy8w",
+            "server": "52.221.182.192",
+            "server_port": 17963,
+            "tag": "🇸🇬 SG | ⬇️ 11.33 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "bing.com",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "59.153.216.133",
+            "server_port": 34045,
+            "tag": "🇻🇳 VN | ⬇️ 10.84 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
+            },
+            "type": "vless",
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "160.250.65.124",
+            "server_port": 34045,
+            "tag": "🇻🇳 VN | ⬇️ 5.28 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
+            },
+            "type": "vless",
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "default": "🗽 自动",
+            "outbounds": [
+                "🗽 自动",
+                "🌏 亚洲",
+                "🌎 美洲",
+                "🌍 欧洲",
+                "🟢 直连"
+            ],
+            "tag": "🚀 节点选择",
+            "type": "selector"
+        },
+        {
+            "default": "🗽 自动",
+            "interrupt_exist_connections": true,
+            "outbounds": [
+                "🗽 自动",
+                "🌎 美洲",
+                "🌍 欧洲"
+            ],
+            "tag": "🤖 AI",
+            "type": "selector"
+        },
+        {
+            "default": "🟢 直连",
+            "interrupt_exist_connections": true,
+            "outbounds": [
+                "🟢 直连",
+                "🚀 节点选择"
+            ],
+            "tag": "🍎 苹果",
+            "type": "selector"
+        },
+        {
+            "default": "🚀 节点选择",
+            "outbounds": [
+                "🟢 直连",
+                "🚀 节点选择"
+            ],
+            "tag": "🐟 漏网之鱼",
+            "type": "selector"
+        },
+        {
+            "interrupt_exist_connections": true,
+            "outbounds": [
+                "🇨🇦 CA | ⬇️ 27.47 MB/s",
+                "🇨🇦 CA | ⬇️ 23.21 MB/s",
+                "🇫🇮 FI | ⬇️ 22.84 MB/s",
+                "🇩🇪 DE | ⬇️ 22.19 MB/s",
+                "🇺🇸 US | ⬇️ 16.91 MB/s",
+                "🇩🇪 DE | ⬇️ 14.62 MB/s",
+                "🇸🇬 SG | ⬇️ 11.30 MB/s",
+                "🇨🇦 CA | ⬇️ 11.01 MB/s",
+                "🇦🇪 AE | ⬇️ 10.16 MB/s",
+                "🇨🇦 CA | ⬇️ 9.81 MB/s",
+                "🇳🇱 NL | ⬇️ 9.09 MB/s",
+                "🇦🇹 AT | ⬇️ 5.42 MB/s",
+                "🇷🇺 RU | ⬇️ 24.53 MB/s",
+                "🇦🇹 AT | ⬇️ 22.70 MB/s",
+                "🇺🇸 US | ⬇️ 22.06 MB/s",
+                "🏳️ IR | ⬇️ 13.53 MB/s",
+                "🇨🇦 CA | ⬇️ 13.37 MB/s",
+                "🇨🇦 CA | ⬇️ 12.38 MB/s",
+                "🇸🇬 SG | ⬇️ 10.93 MB/s",
+                "🇫🇷 FR | ⬇️ 10.85 MB/s",
+                "🇺🇸 US | ⬇️ 10.55 MB/s",
+                "🇬🇧 GB | ⬇️ 32.25 MB/s",
+                "🇺🇸 US | ⬇️ 32.25 MB/s",
+                "🇨🇦 CA | ⬇️ 28.48 MB/s",
+                "🇨🇦 CA | ⬇️ 28.45 MB/s",
+                "🇨🇦 CA | ⬇️ 22.67 MB/s",
+                "🇨🇦 CA | ⬇️ 12.37 MB/s",
+                "🇸🇬 SG | ⬇️ 11.32 MB/s",
+                "🇸🇬 SG | ⬇️ 11.25 MB/s",
+                "🇸🇬 SG | ⬇️ 10.84 MB/s",
+                "🇻🇳 VN | ⬇️ 9.52 MB/s",
+                "🇻🇳 VN | ⬇️ 5.22 MB/s",
+                "🇺🇸 US | ⬇️ 54.88 MB/s",
+                "🏳️ AL | ⬇️ 37.15 MB/s",
+                "🇺🇸 US | ⬇️ 33.92 MB/s",
+                "🇦🇹 AT | ⬇️ 28.70 MB/s",
+                "🇨🇦 CA | ⬇️ 18.21 MB/s",
+                "🇨🇷 CR | ⬇️ 16.88 MB/s",
+                "🇩🇪 DE | ⬇️ 15.31 MB/s",
+                "🇨🇦 CA | ⬇️ 13.36 MB/s",
+                "🇧🇿 BZ | ⬇️ 11.56 MB/s",
+                "🇸🇬 SG | ⬇️ 11.37 MB/s",
+                "🇸🇬 SG | ⬇️ 11.33 MB/s",
+                "🇻🇳 VN | ⬇️ 10.84 MB/s",
+                "🇻🇳 VN | ⬇️ 5.28 MB/s"
+            ],
+            "tag": "🗽 自动",
+            "type": "urltest"
+        },
+        {
+            "interrupt_exist_connections": true,
+            "outbounds": [
+                "🇸🇬 SG | ⬇️ 11.30 MB/s",
+                "🇸🇬 SG | ⬇️ 10.93 MB/s",
+                "🇸🇬 SG | ⬇️ 11.32 MB/s",
+                "🇸🇬 SG | ⬇️ 11.25 MB/s",
+                "🇸🇬 SG | ⬇️ 10.84 MB/s",
+                "🇻🇳 VN | ⬇️ 9.52 MB/s",
+                "🇻🇳 VN | ⬇️ 5.22 MB/s",
+                "🇸🇬 SG | ⬇️ 11.37 MB/s",
+                "🇸🇬 SG | ⬇️ 11.33 MB/s",
+                "🇻🇳 VN | ⬇️ 10.84 MB/s",
+                "🇻🇳 VN | ⬇️ 5.28 MB/s"
+            ],
+            "tag": "🌏 亚洲",
+            "type": "urltest"
+        },
+        {
+            "interrupt_exist_connections": true,
+            "outbounds": [
+                "🇨🇦 CA | ⬇️ 27.47 MB/s",
+                "🇨🇦 CA | ⬇️ 23.21 MB/s",
+                "🇺🇸 US | ⬇️ 16.91 MB/s",
+                "🇨🇦 CA | ⬇️ 11.01 MB/s",
+                "🇨🇦 CA | ⬇️ 9.81 MB/s",
+                "🇺🇸 US | ⬇️ 22.06 MB/s",
+                "🇨🇦 CA | ⬇️ 13.37 MB/s",
+                "🇨🇦 CA | ⬇️ 12.38 MB/s",
+                "🇺🇸 US | ⬇️ 10.55 MB/s",
+                "🇺🇸 US | ⬇️ 32.25 MB/s",
+                "🇨🇦 CA | ⬇️ 28.48 MB/s",
+                "🇨🇦 CA | ⬇️ 28.45 MB/s",
+                "🇨🇦 CA | ⬇️ 22.67 MB/s",
+                "🇨🇦 CA | ⬇️ 12.37 MB/s",
+                "🇺🇸 US | ⬇️ 54.88 MB/s",
+                "🇺🇸 US | ⬇️ 33.92 MB/s",
+                "🇨🇦 CA | ⬇️ 18.21 MB/s",
+                "🇨🇦 CA | ⬇️ 13.36 MB/s"
+            ],
+            "tag": "🌎 美洲",
+            "type": "urltest"
+        },
+        {
+            "interrupt_exist_connections": true,
+            "interval": "5m",
+            "outbounds": [
+                "🇩🇪 DE | ⬇️ 22.19 MB/s",
+                "🇩🇪 DE | ⬇️ 14.62 MB/s",
+                "🇳🇱 NL | ⬇️ 9.09 MB/s",
+                "🇷🇺 RU | ⬇️ 24.53 MB/s",
+                "🇫🇷 FR | ⬇️ 10.85 MB/s",
+                "🇬🇧 GB | ⬇️ 32.25 MB/s",
+                "🇩🇪 DE | ⬇️ 15.31 MB/s",
+                "🇧🇿 BZ | ⬇️ 11.56 MB/s"
+            ],
+            "tag": "🌍 欧洲",
+            "type": "urltest"
+        },
+        {
+            "tag": "🟢 直连",
+            "type": "direct"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "final": "🐟 漏网之鱼",
+        "rule_set": [
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "geosite-geolocation-!cn",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "geosite-cn",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "geosite-google",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "geosite-apple",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-apple.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "geosite-adblockplus",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-adblockplus.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "geosite-adguard",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-adguard.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "YouTube",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/YouTube.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "OpenAI",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "source",
+                "tag": "TikTok",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/TikTok.json"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "Telegram",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/Telegram.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "Twitter",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/Twitter.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "Netflix",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/Netflix.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "GFW",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/gfw.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "ai",
+                "type": "remote",
+                "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ai.srs"
+            },
+            {
+                "download_detour": "🚀 节点选择",
+                "format": "binary",
+                "tag": "ads",
+                "type": "remote",
+                "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs"
+            }
+        ],
+        "rules": [
+            {
+                "action": "sniff"
+            },
+            {
+                "action": "hijack-dns",
+                "protocol": "dns"
+            },
+            {
+                "clash_mode": "direct",
+                "outbound": "🟢 直连"
+            },
+            {
+                "clash_mode": "global",
+                "outbound": "🚀 节点选择"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "🟢 直连"
+            },
+            {
+                "outbound": "🍎 苹果",
+                "rule_set": "geosite-apple"
+            },
+            {
+                "outbound": "🤖 AI",
+                "rule_set": [
+                    "OpenAI",
+                    "ai"
+                ]
+            },
+            {
+                "action": "reject",
+                "protocol": "quic"
+            },
+            {
+                "action": "reject",
+                "rule_set": [
+                    "geosite-adblockplus",
+                    "geosite-adguard",
+                    "ads"
+                ]
+            },
+            {
+                "outbound": "🚀 节点选择",
+                "rule_set": [
+                    "GFW",
+                    "TikTok",
+                    "Telegram",
+                    "Netflix"
+                ]
+            },
+            {
+                "outbound": "🟢 直连",
+                "rule_set": "geosite-cn"
+            },
+            {
+                "mode": "and",
+                "outbound": "🚀 节点选择",
+                "rules": [
+                    {
+                        "rule_set": "geosite-geolocation-!cn"
+                    },
+                    {
+                        "invert": true,
+                        "rule_set": "geosite-cn"
+                    }
+                ],
+                "type": "logical"
+            }
+        ]
+    }
+}
