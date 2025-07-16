@@ -1,9 +1,15 @@
 proxies:
-- name: 🇦🇹 AT | ⬇️ 13.55 MB/s
+- cipher: aes-128-gcm
+  name: 🇨🇭 CH | ⬇️ 22.20 MB/s
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.161
+  type: ss
+- name: 🇦🇹 AT | ⬇️ 15.76 MB/s
   network: ws
-  port: 2083
+  port: 2087
   server: 212.183.88.29
-  servername: POstwARE-2jm.PagES.DEv
+  servername: posTWaRe-2jM.PaGES.deV
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -12,551 +18,28 @@ proxies:
   uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
   ws-opts:
     headers:
-      Host: POstwARE-2jm.PagES.DEv
-    path: /3BiOQ1rCgST9FvMj?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US | ⬇️ 26.34 MB/s
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- name: 🇯🇵 JP | ⬇️ 23.81 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12205
-  server: ss.jpnlink.xyz
-  skip-cert-verify: true
-  sni: 122.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP | ⬇️ 17.92 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12106
-  server: ss.twplink.xyz
-  skip-cert-verify: true
-  sni: 110.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP | ⬇️ 16.85 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12105
-  server: ss.twplink.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- auth: j6dnxwZGg1
-  name: 🇩🇪 DE | ⬇️ 16.70 MB/s
-  obfs: salamander
-  obfs-password: t8tblKOIMXQ2ydZNiDTwj8ocAqp9FhkA
-  password: j6dnxwZGg1
-  port: 45330
-  server: 164.92.241.193
-  skip-cert-verify: true
-  sni: canva.com
-  type: hysteria2
-- name: 🇯🇵 JP | ⬇️ 12.65 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 23007
-  server: tr.node1link.xyz
-  skip-cert-verify: true
-  sni: 84.yuanul.com
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  name: 🇻🇳 VN | ⬇️ 6.18 MB/s
-  network: tcp
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 59.153.216.133
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- auth: 4e5c61c7-531b-4bce-99e9-df28413359ae
-  name: 🇨🇦 CA | ⬇️ 5.18 MB/s
-  obfs: salamander
-  obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
-  password: 4e5c61c7-531b-4bce-99e9-df28413359ae
-  port: 35280
-  server: flyjnd.flylink.cyou
-  skip-cert-verify: true
-  sni: flyjnd.flylink.cyou
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US | ⬇️ 29.90 MB/s
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- name: 🇯🇵 JP | ⬇️ 24.02 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12208
-  server: ss.jpnlink.xyz
-  skip-cert-verify: true
-  sni: 125.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP | ⬇️ 12.64 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 23002
-  server: tr.node1link.xyz
-  skip-cert-verify: true
-  sni: 76.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇦🇹 AT | ⬇️ 10.35 MB/s
-  network: ws
-  port: 2096
-  server: 212.183.88.29
-  servername: pOStWArE-2Jm.PAgEs.dEv
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: pOStWArE-2Jm.PAgEs.dEv
-    path: /ssqKt5JYIXEwDOMJ?ed=2560
-- name: 🇺🇸 US | ⬇️ 40.63 MB/s
-  network: ws
-  port: 443
-  server: 104.254.140.163
-  servername: pages.dev
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5879d109-8c92-448a-801b-3f3989019934
-  ws-opts:
-    headers:
-      Host: tbs-80p.pages.dev
-    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 27.73 MB/s
-  network: ws
-  port: 8443
-  server: orvps2.horsenma.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
-  ws-opts:
-    headers:
-      Host: orvps2.horsenma.net
-    path: /horsen
-- name: 🇨🇦 CA | ⬇️ 22.22 MB/s
-  network: ws
-  password: fa050497-fc2a-45ee-89c0-96670c4ecb65
-  port: 443
-  server: 104.21.63.135
-  skip-cert-verify: true
-  sni: Rrr4.8906004.xYZ
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Rrr4.8906004.xYZ
-    path: /DZxb5QZyWgQPuXTwt
-- name: 🇯🇵 JP | ⬇️ 20.19 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 13201
-  server: ss.usalink.xyz
-  skip-cert-verify: true
-  sni: 133.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP | ⬇️ 16.74 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12104
-  server: ss.twplink.xyz
-  skip-cert-verify: true
-  sni: 108.yuanul.com
-  type: trojan
-  udp: true
-- client-fingerprint: randomized
-  name: 🇺🇸 US | ⬇️ 14.01 MB/s
-  network: ws
-  port: 2053
-  server: 147.185.161.46
-  servername: 019309B7.XyZ0.PaGeS.dEV
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
-  ws-opts:
-    headers:
-      Host: 019309B7.XyZ0.PaGeS.dEV
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: 🇯🇵 JP | ⬇️ 13.61 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 23015
-  server: tr.node1link.xyz
-  skip-cert-verify: true
-  sni: 102.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP | ⬇️ 10.66 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 23014
-  server: tr.node1link.xyz
-  skip-cert-verify: true
-  sni: 101.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP | ⬇️ 23.88 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12203
-  server: ss.jpnlink.xyz
-  skip-cert-verify: true
-  sni: 120.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇨🇦 CA | ⬇️ 23.19 MB/s
-  network: ws
-  password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-  port: 443
-  server: iiiiop0.444752.xyz
-  skip-cert-verify: true
-  sni: iiiiop0.444752.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: iiiiop0.444752.xyz
-    path: /ctHoQlqeZn8pbEUSLppj7jCmY
-- auth: dongtaiwang.com
-  name: 🇳🇱 NL | ⬇️ 17.32 MB/s
-  password: dongtaiwang.com
-  port: 10011
-  server: 163.172.217.10
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇫🇷 FR | ⬇️ 11.42 MB/s
-  network: ws
-  port: 443
-  server: 141.101.120.132
-  servername: 1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: 1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-    path: /?ed=2048
-- name: 🇦🇹 AT | ⬇️ 11.18 MB/s
-  network: ws
-  port: 2083
-  server: 212.183.88.29
-  servername: PoStwarE-2jM.PaGeS.DEv
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: PoStwarE-2jM.PaGeS.DEv
-    path: /PB8ZxcORP4BTVbIC?ed=2560
-- name: 🇯🇵 JP | ⬇️ 9.13 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 23012
-  server: tr.node1link.xyz
-  skip-cert-verify: true
-  sni: 97.yuanul.com
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  name: 🇻🇳 VN | ⬇️ 7.91 MB/s
-  network: tcp
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 103.12.77.48
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- auth: o753T2a9zD
-  name: 🇳🇱 NL | ⬇️ 5.94 MB/s
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 20675
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  type: hysteria2
-- auth: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  name: 🇺🇸 US | ⬇️ 41.54 MB/s
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US | ⬇️ 33.79 MB/s
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- name: 🇨🇦 CA | ⬇️ 24.63 MB/s
-  network: ws
-  password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
-  port: 443
-  server: 172.67.220.32
-  skip-cert-verify: true
-  sni: eEEfGty6.999836.XYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: eEEfGty6.999836.XYz
-    path: /XmTzATQPJv9RO3xr1D40NK
-- name: 🇯🇵 JP | ⬇️ 23.04 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12202
-  server: ss.jpnlink.xyz
-  skip-cert-verify: true
-  sni: 119.yuanul.com
-  type: trojan
-  udp: true
-- auth: 867f512f-93d2-4344-853c-50965de9b103
-  name: 🇳🇱 NL | ⬇️ 20.12 MB/s
-  password: 867f512f-93d2-4344-853c-50965de9b103
-  port: 55215
-  server: shy42.zqjc.cloud
-  skip-cert-verify: true
-  sni: shy42.zqjc.cloud
-  type: hysteria2
-- name: 🇯🇵 JP | ⬇️ 18.86 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12102
-  server: ss.twplink.xyz
-  skip-cert-verify: true
-  sni: 106.yuanul.com
-  type: trojan
-  udp: true
-- auth: o753T2a9zD
-  name: 🇳🇱 NL | ⬇️ 18.06 MB/s
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 18865
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  type: hysteria2
-- name: 🇯🇵 JP | ⬇️ 13.97 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 10101
-  server: ss.hkglink.xyz
-  skip-cert-verify: true
-  sni: sni.eos-suzhou-4.cmecloud.cn
-  type: trojan
-  udp: true
-- name: 🇳🇱 NL | ⬇️ 11.47 MB/s
+      Host: posTWaRe-2jM.PaGES.deV
+    path: /QHhyztm6ggdnBfC7?ed=2560
+- name: 🇳🇱 NL | ⬇️ 39.31 MB/s
   network: ws
   port: 8880
-  server: 188.42.145.20
-  servername: us.laoyoutiao.link
+  server: 45.149.12.251
+  servername: cf.d3z.net
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   ws-opts:
     headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 🇯🇵 JP | ⬇️ 8.68 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 23000
-  server: tr.node1link.xyz
-  skip-cert-verify: true
-  sni: 73.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇨🇦 CA | ⬇️ 28.86 MB/s
-  network: ws
-  password: fa050497-fc2a-45ee-89c0-96670c4ecb65
-  port: 443
-  server: 104.21.63.135
-  skip-cert-verify: true
-  sni: Rrr4.8906004.xYZ
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Rrr4.8906004.xYZ
-    path: /DZxb5QZyWgQPuXTwt
-- name: 🇯🇵 JP | ⬇️ 24.00 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12206
-  server: ss.jpnlink.xyz
-  skip-cert-verify: true
-  sni: 123.yuanul.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 23.69 MB/s
-  network: ws
-  port: 8443
-  server: 104.21.20.162
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
-  ws-opts:
-    headers:
-      Host: orvps2.horsenma.net
-    path: /horsen
-- auth: 867f512f-93d2-4344-853c-50965de9b103
-  name: 🇩🇪 DE | ⬇️ 23.32 MB/s
-  password: 867f512f-93d2-4344-853c-50965de9b103
-  port: 55215
-  server: shy38.zqjc.cloud
-  skip-cert-verify: true
-  sni: shy38.zqjc.cloud
-  type: hysteria2
-- alpn:
-  - http%2F1.1
-  name: 🇨🇦 CA | ⬇️ 20.80 MB/s
-  network: ws
-  password: fa050497-fc2a-45ee-89c0-96670c4ecb65
-  port: 443
-  server: 172.67.145.200
-  skip-cert-verify: true
-  sni: Rrr4.8906004.xYZ
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Rrr4.8906004.xYZ
-    path: /DZxb5QZyWgQPuXTwt
-- name: 🇯🇵 JP | ⬇️ 18.61 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12101
-  server: ss.twplink.xyz
-  skip-cert-verify: true
-  sni: 104.yuanul.com
-  type: trojan
-  udp: true
-- auth: o753T2a9zD
-  name: 🇳🇱 NL | ⬇️ 18.40 MB/s
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: o753T2a9zD
-  port: 50757
-  server: v2raybluecrystal3.3dfigures.ir
-  skip-cert-verify: true
-  type: hysteria2
-- name: 🇯🇵 JP | ⬇️ 17.76 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12103
-  server: ss.twplink.xyz
-  skip-cert-verify: true
-  sni: 116.yuanul.com
-  type: trojan
-  udp: true
-- name: 🇯🇵 JP | ⬇️ 15.45 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 10104
-  server: ss.hkglink.xyz
-  skip-cert-verify: true
-  sni: sni.eos-suzhou-4.cmecloud.cn
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇰 SK | ⬇️ 14.50 MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 13.20 MB/s
+      Host: cf.d3z.net
+    path: /Telegram @WangCai2 /?ed=2560
+- name: 🇳🇱 NL | ⬇️ 32.48 MB/s
   network: ws
   port: 443
-  server: JJJjjjjjmMMmM.4444926.XYZ
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
-  ws-opts:
-    headers:
-      Host: jjjjjjjjmmmmm.4444926.xyz
-    path: /awmqq79B17rfnpXiNaWb
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 11.87 MB/s
-  network: ws
-  port: 8443
-  server: orvps2.horsenma.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
-  ws-opts:
-    headers:
-      Host: orvps2.horsenma.net
-    path: /horsen
-- name: 🇯🇵 JP | ⬇️ 11.79 MB/s
-  password: 6a60356a-0875-40d9-81f3-3ef82cede767
-  port: 12204
-  server: ss.jpnlink.xyz
-  skip-cert-verify: true
-  sni: 121.yuanul.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱 NL | ⬇️ 36.45 MB/s
-  port: 15709
-  server: 83.149.84.145
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4ac39e8a-6d5c-48bb-b0d0-f633c829113e
-- name: 🇺🇸 US | ⬇️ 31.59 MB/s
-  network: ws
-  port: 443
-  server: 69.84.182.2
-  servername: pages.dev
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5879d109-8c92-448a-801b-3f3989019934
-  ws-opts:
-    headers:
-      Host: tbs-80p.pages.dev
-    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
-- client-fingerprint: chrome
-  name: 🇨🇦 CA | ⬇️ 14.44 MB/s
-  network: ws
-  port: 443
-  server: check-host.net
-  servername: rayan-10.leila.dpdns.org
+  server: 188.42.89.145
+  servername: rAyAn-12.LeIlA.DpDnS.OrG
   skip-cert-verify: true
   tfo: true
   tls: true
@@ -565,40 +48,9 @@ proxies:
   uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
   ws-opts:
     headers:
-      Host: rayan-10.leila.dpdns.org
-    path: /
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸 US | ⬇️ 13.48 MB/s
-  network: tcp
-  port: 25888
-  reality-opts:
-    public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA
-    short-id: be1be5fc
-  server: 143.14.220.111
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 81a40afc-a390-4adf-8456-26b543f19122
-- name: 🇬🇧 GB | ⬇️ 12.78 MB/s
-  network: ws
-  port: 8880
-  server: 91.193.58.207
-  servername: us.laoyoutiao.link
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 🇨🇦 CA | ⬇️ 11.56 MB/s
+      Host: rayan-12.leila.dpdns.org
+    path: /@Rayan_Config
+- name: 🇨🇦 CA | ⬇️ 27.63 MB/s
   network: ws
   port: 443
   server: bestcf.030101.xyz
@@ -613,9 +65,254 @@ proxies:
     headers:
       Host: xv6.jpmj.dpdns.org
     path: /bbs?ed=2048
+- cipher: aes-128-gcm
+  name: 🇨🇭 CH | ⬇️ 22.35 MB/s
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.163
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US | ⬇️ 19.17 MB/s
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: beesyar.org
+  type: ss
+- name: 🇯🇵 JP | ⬇️ 6.89 MB/s
+  network: ws
+  port: 8880
+  server: 156.238.18.197
+  servername: yd.laoyoutiao.link
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- client-fingerprint: firefox
+  name: 🇻🇳 VN | ⬇️ 6.32 MB/s
+  network: tcp
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 59.153.218.14
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 🇯🇵 JP | ⬇️ 5.51 MB/s
+  network: ws
+  port: 8880
+  server: 156.238.18.211
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US | ⬇️ 19.31 MB/s
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+- name: 🇦🇹 AT | ⬇️ 18.00 MB/s
+  network: ws
+  port: 2083
+  server: 212.183.88.29
+  servername: POstwARE-2jm.PagES.DEv
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: POstwARE-2jm.PagES.DEv
+    path: /3BiOQ1rCgST9FvMj?ed=2560
+- auth: dongtaiwang.com
+  name: 🇳🇱 NL | ⬇️ 14.35 MB/s
+  password: dongtaiwang.com
+  port: 10011
+  server: 163.172.217.10
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇺🇸 US | ⬇️ 8.36 MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.169
+  servername: ensHOLP-91s.pageS.DEv
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 267613d7-f53f-4005-b642-d6f1f687b7cf
+  ws-opts:
+    headers:
+      Host: ensHOLP-91s.pageS.DEv
+    path: /dQMN2VQLkaE52qWD?ed=2560
+- name: 🇦🇹 AT | ⬇️ 40.56 MB/s
+  network: ws
+  port: 443
+  server: 212.183.88.1
+  servername: pages.dev
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5879d109-8c92-448a-801b-3f3989019934
+  ws-opts:
+    headers:
+      Host: tbs-80p.pages.dev
+    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
+- name: 🇺🇸 US | ⬇️ 8.89 MB/s
+  network: ws
+  password: 512d9674-db12-44ca-a1b5-654244549b65
+  port: 443
+  server: sssxxcvfty.444752.xyz
+  skip-cert-verify: true
+  sni: sssxxcvfty.444752.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sssxxcvfty.444752.xyz
+    path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
+- name: 🇺🇸 US | ⬇️ 40.54 MB/s
+  network: ws
+  port: 443
+  server: 104.254.140.163
+  servername: pages.dev
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5879d109-8c92-448a-801b-3f3989019934
+  ws-opts:
+    headers:
+      Host: tbs-80p.pages.dev
+    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
+- auth: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  name: 🇺🇸 US | ⬇️ 25.74 MB/s
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇯🇵 JP | ⬇️ 22.12 MB/s
+  network: ws
+  port: 8880
+  server: 156.238.18.106
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- cipher: aes-256-cfb
+  name: 🇸🇰 SK | ⬇️ 21.58 MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US | ⬇️ 10.61 MB/s
+  name: 🇨🇦 CA | ⬇️ 16.21 MB/s
+  network: ws
+  port: 8443
+  server: 104.21.20.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
+  ws-opts:
+    headers:
+      Host: orvps2.horsenma.net
+    path: /horsen
+- name: 🇦🇹 AT | ⬇️ 15.98 MB/s
+  network: ws
+  port: 2087
+  server: 212.183.88.29
+  servername: posTWaRe-2jM.PaGES.deV
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: posTWaRe-2jM.PaGES.deV
+    path: /QHhyztm6ggdnBfC7?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA | ⬇️ 11.26 MB/s
+  network: ws
+  port: 8443
+  server: 104.21.96.1
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f10598e2-c606-4945-bfde-e5730756a2dd
+  ws-opts:
+    headers:
+      Host: us01.sh-cloudflare.sbs
+    path: /
+- name: 🇨🇦 CA | ⬇️ 40.47 MB/s
+  network: ws
+  port: 8880
+  server: 92.53.189.251
+  servername: cf.d3z.net
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram @WangCai2 /?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇨🇦 CA | ⬇️ 17.42 MB/s
+  network: ws
+  port: 8443
+  server: 188.114.96.3
+  servername: w325.pAges.Dev
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88d05a33-ff36-415d-9d2c-7e1e8468e7e8
+  ws-opts:
+    headers:
+      Host: w325.pages.dev
+    path: /6WKNgcKo7LMqOzhb?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA | ⬇️ 13.85 MB/s
   network: ws
   port: 443
   server: sSsdCVfBGNjkI.931.PP.Ua
@@ -627,10 +324,150 @@ proxies:
     headers:
       Host: sSsdCVfBGNjkI.931.PP.Ua
     path: /14Fziqw1hYgCXNutkS5H
+- name: 🇫🇷 FR | ⬇️ 11.60 MB/s
+  network: ws
+  port: 8880
+  server: 185.16.110.251
+  servername: cf.d3z.net
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram @WangCai2 /?ed=2560
+- cipher: aes-128-gcm
+  name: 🇺🇸 US | ⬇️ 136.35 MB/s
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.130
+  type: ss
+- name: 🏳️ NZ | ⬇️ 36.23 MB/s
+  network: ws
+  port: 8880
+  server: 114.129.43.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
 - cipher: aes-256-cfb
-  name: 🇸🇰 SK | ⬇️ 7.26 MB/s
+  name: 🇸🇰 SK | ⬇️ 21.21 MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
   type: ss
   udp: true
+- name: 🇦🇹 AT | ⬇️ 15.73 MB/s
+  network: ws
+  port: 2053
+  server: 212.183.88.29
+  servername: PostwaRE-2jm.PaGES.DEv
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: PostwaRE-2jm.PaGES.DEv
+    path: /JkT5yFwh3Mveqw81?ed=2560
+- name: 🇦🇹 AT | ⬇️ 11.35 MB/s
+  network: ws
+  port: 2096
+  server: 212.183.88.29
+  servername: pOStWArE-2Jm.PAgEs.dEv
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: pOStWArE-2Jm.PAgEs.dEv
+    path: /ssqKt5JYIXEwDOMJ?ed=2560
+- name: 🇯🇵 JP | ⬇️ 5.88 MB/s
+  network: ws
+  port: 8880
+  server: 156.238.18.239
+  servername: yd.laoyoutiao.link
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 🇺🇸 US | ⬇️ 5.67 MB/s
+  network: ws
+  port: 8880
+  server: 159.246.55.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🇦🇹 AT | ⬇️ 5.62 MB/s
+  network: ws
+  port: 8880
+  server: 212.183.88.177
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA | ⬇️ 11.50 MB/s
+  network: ws
+  port: 443
+  server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  ws-opts:
+    headers:
+      Host: tttttttttgggghhhnmk.iran2035.dpdns.org
+    path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
+- name: 🇸🇬 SG | ⬇️ 6.60 MB/s
+  network: ws
+  port: 8880
+  server: 91.124.127.177
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
