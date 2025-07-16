@@ -1,198 +1,5 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 🇨🇭 CH | ⬇️ 22.20 MB/s
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.161
-  type: ss
-- name: 🇦🇹 AT | ⬇️ 15.76 MB/s
-  network: ws
-  port: 2087
-  server: 212.183.88.29
-  servername: posTWaRe-2jM.PaGES.deV
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: posTWaRe-2jM.PaGES.deV
-    path: /QHhyztm6ggdnBfC7?ed=2560
-- name: 🇳🇱 NL | ⬇️ 39.31 MB/s
-  network: ws
-  port: 8880
-  server: 45.149.12.251
-  servername: cf.d3z.net
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /Telegram @WangCai2 /?ed=2560
-- name: 🇳🇱 NL | ⬇️ 32.48 MB/s
-  network: ws
-  port: 443
-  server: 188.42.89.145
-  servername: rAyAn-12.LeIlA.DpDnS.OrG
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-  ws-opts:
-    headers:
-      Host: rayan-12.leila.dpdns.org
-    path: /@Rayan_Config
-- name: 🇨🇦 CA | ⬇️ 27.63 MB/s
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: xv6.jpmj.dpdns.org
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 897a4bec-26b8-11e8-94be-00505695472c
-  ws-opts:
-    headers:
-      Host: xv6.jpmj.dpdns.org
-    path: /bbs?ed=2048
-- cipher: aes-128-gcm
-  name: 🇨🇭 CH | ⬇️ 22.35 MB/s
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US | ⬇️ 19.17 MB/s
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
-  type: ss
-- name: 🇯🇵 JP | ⬇️ 6.89 MB/s
-  network: ws
-  port: 8880
-  server: 156.238.18.197
-  servername: yd.laoyoutiao.link
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- client-fingerprint: firefox
-  name: 🇻🇳 VN | ⬇️ 6.32 MB/s
-  network: tcp
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 59.153.218.14
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- name: 🇯🇵 JP | ⬇️ 5.51 MB/s
-  network: ws
-  port: 8880
-  server: 156.238.18.211
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US | ⬇️ 19.31 MB/s
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- name: 🇦🇹 AT | ⬇️ 18.00 MB/s
-  network: ws
-  port: 2083
-  server: 212.183.88.29
-  servername: POstwARE-2jm.PagES.DEv
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: POstwARE-2jm.PagES.DEv
-    path: /3BiOQ1rCgST9FvMj?ed=2560
-- auth: dongtaiwang.com
-  name: 🇳🇱 NL | ⬇️ 14.35 MB/s
-  password: dongtaiwang.com
-  port: 10011
-  server: 163.172.217.10
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 🇺🇸 US | ⬇️ 8.36 MB/s
-  network: ws
-  port: 443
-  server: 69.84.182.169
-  servername: ensHOLP-91s.pageS.DEv
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 267613d7-f53f-4005-b642-d6f1f687b7cf
-  ws-opts:
-    headers:
-      Host: ensHOLP-91s.pageS.DEv
-    path: /dQMN2VQLkaE52qWD?ed=2560
-- name: 🇦🇹 AT | ⬇️ 40.56 MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.1
-  servername: pages.dev
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5879d109-8c92-448a-801b-3f3989019934
-  ws-opts:
-    headers:
-      Host: tbs-80p.pages.dev
-    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
-- name: 🇺🇸 US | ⬇️ 8.89 MB/s
-  network: ws
-  password: 512d9674-db12-44ca-a1b5-654244549b65
-  port: 443
-  server: sssxxcvfty.444752.xyz
-  skip-cert-verify: true
-  sni: sssxxcvfty.444752.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sssxxcvfty.444752.xyz
-    path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
-- name: 🇺🇸 US | ⬇️ 40.54 MB/s
+- name: 🇺🇸 US | ⬇️ 30.16 MB/s
   network: ws
   port: 443
   server: 104.254.140.163
@@ -207,182 +14,52 @@ proxies:
     headers:
       Host: tbs-80p.pages.dev
     path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
-- auth: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  name: 🇺🇸 US | ⬇️ 25.74 MB/s
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  type: hysteria2
-- name: 🇯🇵 JP | ⬇️ 22.12 MB/s
-  network: ws
-  port: 8880
-  server: 156.238.18.106
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: yd.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- cipher: aes-256-cfb
-  name: 🇸🇰 SK | ⬇️ 21.58 MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 16.21 MB/s
-  network: ws
-  port: 8443
-  server: 104.21.20.162
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
-  ws-opts:
-    headers:
-      Host: orvps2.horsenma.net
-    path: /horsen
-- name: 🇦🇹 AT | ⬇️ 15.98 MB/s
-  network: ws
-  port: 2087
-  server: 212.183.88.29
-  servername: posTWaRe-2jM.PaGES.deV
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: posTWaRe-2jM.PaGES.deV
-    path: /QHhyztm6ggdnBfC7?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 11.26 MB/s
-  network: ws
-  port: 8443
-  server: 104.21.96.1
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f10598e2-c606-4945-bfde-e5730756a2dd
-  ws-opts:
-    headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
-- name: 🇨🇦 CA | ⬇️ 40.47 MB/s
-  network: ws
-  port: 8880
-  server: 92.53.189.251
-  servername: cf.d3z.net
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /Telegram @WangCai2 /?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇨🇦 CA | ⬇️ 17.42 MB/s
-  network: ws
-  port: 8443
-  server: 188.114.96.3
-  servername: w325.pAges.Dev
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88d05a33-ff36-415d-9d2c-7e1e8468e7e8
-  ws-opts:
-    headers:
-      Host: w325.pages.dev
-    path: /6WKNgcKo7LMqOzhb?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 13.85 MB/s
+- name: 🇳🇱 NL | ⬇️ 17.06 MB/s
   network: ws
   port: 443
-  server: sSsdCVfBGNjkI.931.PP.Ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
-  ws-opts:
-    headers:
-      Host: sSsdCVfBGNjkI.931.PP.Ua
-    path: /14Fziqw1hYgCXNutkS5H
-- name: 🇫🇷 FR | ⬇️ 11.60 MB/s
-  network: ws
-  port: 8880
-  server: 185.16.110.251
-  servername: cf.d3z.net
+  server: 188.42.89.145
+  servername: rAyAn-12.LeIlA.DpDnS.OrG
   skip-cert-verify: true
   tfo: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
   ws-opts:
     headers:
-      Host: cf.d3z.net
-    path: /Telegram @WangCai2 /?ed=2560
-- cipher: aes-128-gcm
-  name: 🇺🇸 US | ⬇️ 136.35 MB/s
-  password: shadowsocks
+      Host: rayan-12.leila.dpdns.org
+    path: /@Rayan_Config
+- name: 🇺🇸 US | ⬇️ 14.49 MB/s
+  network: ws
   port: 443
-  server: 212.102.47.130
-  type: ss
-- name: 🏳️ NZ | ⬇️ 36.23 MB/s
+  server: 69.84.182.169
+  servername: ensHOLP-91s.pageS.DEv
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 267613d7-f53f-4005-b642-d6f1f687b7cf
+  ws-opts:
+    headers:
+      Host: ensHOLP-91s.pageS.DEv
+    path: /dQMN2VQLkaE52qWD?ed=2560
+- name: 🇱🇹 LT | ⬇️ 12.17 MB/s
   network: ws
   port: 8880
-  server: 114.129.43.251
+  server: 89.116.250.186
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vless
   udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
   ws-opts:
     headers:
-      Host: cf.d3z.net
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- cipher: aes-256-cfb
-  name: 🇸🇰 SK | ⬇️ 21.21 MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-  udp: true
-- name: 🇦🇹 AT | ⬇️ 15.73 MB/s
-  network: ws
-  port: 2053
-  server: 212.183.88.29
-  servername: PostwaRE-2jm.PaGES.DEv
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: PostwaRE-2jm.PaGES.DEv
-    path: /JkT5yFwh3Mveqw81?ed=2560
-- name: 🇦🇹 AT | ⬇️ 11.35 MB/s
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🇦🇹 AT | ⬇️ 11.16 MB/s
   network: ws
   port: 2096
   server: 212.183.88.29
@@ -397,7 +74,185 @@ proxies:
     headers:
       Host: pOStWArE-2Jm.PAgEs.dEv
     path: /ssqKt5JYIXEwDOMJ?ed=2560
-- name: 🇯🇵 JP | ⬇️ 5.88 MB/s
+- name: 🇨🇾 CY | ⬇️ 5.73 MB/s
+  network: ws
+  port: 8880
+  server: 77.37.33.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🇳🇱 NL | ⬇️ 5.70 MB/s
+  network: ws
+  port: 8880
+  server: 188.42.145.177
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 🇦🇪 AE | ⬇️ 5.46 MB/s
+  network: ws
+  port: 8880
+  server: 94.140.0.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 🇨🇦 CA | ⬇️ 18.10 MB/s
+  network: ws
+  port: 443
+  server: bestcf.030101.xyz
+  servername: xv6.jpmj.dpdns.org
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 897a4bec-26b8-11e8-94be-00505695472c
+  ws-opts:
+    headers:
+      Host: xv6.jpmj.dpdns.org
+    path: /bbs?ed=2048
+- name: 🇦🇹 AT | ⬇️ 13.12 MB/s
+  network: ws
+  port: 2087
+  server: 212.183.88.29
+  servername: posTWaRe-2jM.PaGES.deV
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: posTWaRe-2jM.PaGES.deV
+    path: /QHhyztm6ggdnBfC7?ed=2560
+- name: 🇬🇧 GB | ⬇️ 10.40 MB/s
+  network: ws
+  port: 8880
+  server: 91.193.58.207
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 🇷🇺 RU | ⬇️ 7.91 MB/s
+  network: ws
+  port: 8880
+  server: 185.174.138.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 🇯🇵 JP | ⬇️ 7.68 MB/s
+  network: ws
+  port: 8880
+  server: 156.238.18.106
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 🇳🇱 NL | ⬇️ 6.87 MB/s
+  network: ws
+  port: 8880
+  server: 188.42.145.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 🇫🇷 FR | ⬇️ 5.27 MB/s
+  network: ws
+  port: 8880
+  server: 185.16.110.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳
+- name: 🏳️ AM | ⬇️ 5.19 MB/s
+  network: ws
+  port: 8880
+  server: 5.10.215.177
+  servername: ip.langmanshanxi.top
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳
+- name: 🇦🇹 AT | ⬇️ 51.35 MB/s
+  network: ws
+  port: 443
+  server: 212.183.88.1
+  servername: pages.dev
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5879d109-8c92-448a-801b-3f3989019934
+  ws-opts:
+    headers:
+      Host: tbs-80p.pages.dev
+    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
+- name: 🇯🇵 JP | ⬇️ 19.46 MB/s
   network: ws
   port: 8880
   server: 156.238.18.239
@@ -412,10 +267,10 @@ proxies:
     headers:
       Host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 🇺🇸 US | ⬇️ 5.67 MB/s
+- name: 🇫🇷 FR | ⬇️ 6.45 MB/s
   network: ws
   port: 8880
-  server: 159.246.55.186
+  server: 185.16.110.186
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tfo: true
@@ -427,10 +282,55 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 🇦🇹 AT | ⬇️ 5.62 MB/s
+- name: 🇬🇧 GB | ⬇️ 5.76 MB/s
   network: ws
   port: 8880
-  server: 212.183.88.177
+  server: 195.13.55.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🏳️ NZ | ⬇️ 42.02 MB/s
+  network: ws
+  port: 8880
+  server: 114.129.43.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 🇷🇺 RU | ⬇️ 10.97 MB/s
+  network: ws
+  port: 8880
+  server: 185.174.138.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🇲🇹 MT | ⬇️ 5.75 MB/s
+  network: ws
+  port: 8880
+  server: 46.202.30.177
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tfo: true
@@ -442,24 +342,107 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA | ⬇️ 11.50 MB/s
+- name: 🇨🇳 CN | ⬇️ 5.73 MB/s
   network: ws
-  port: 443
-  server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG
+  port: 8880
+  server: 77.105.163.186
+  servername: Telegram-channel-WangCai2
   skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🇺🇸 US | ⬇️ 5.48 MB/s
+  network: ws
+  port: 8880
+  server: 66.45.118.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- auth: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  name: 🇺🇸 US | ⬇️ 79.54 MB/s
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇺🇸 US | ⬇️ 25.04 MB/s
+  network: ws
+  port: 8880
+  server: 147.185.161.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 🇦🇹 AT | ⬇️ 11.59 MB/s
+  network: ws
+  port: 2053
+  server: 212.183.88.29
+  servername: PostwaRE-2jm.PaGES.DEv
+  skip-cert-verify: true
+  tfo: true
   tls: true
-  type: vmess
-  uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
   ws-opts:
     headers:
-      Host: tttttttttgggghhhnmk.iran2035.dpdns.org
-    path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
-- name: 🇸🇬 SG | ⬇️ 6.60 MB/s
+      Host: PostwaRE-2jm.PaGES.DEv
+    path: /JkT5yFwh3Mveqw81?ed=2560
+- name: 🇯🇵 JP | ⬇️ 9.77 MB/s
   network: ws
   port: 8880
-  server: 91.124.127.177
+  server: 156.238.18.197
+  servername: yd.laoyoutiao.link
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: yd.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 🇦🇹 AT | ⬇️ 8.57 MB/s
+  network: ws
+  port: 2083
+  server: 212.183.88.29
+  servername: POstwARE-2jm.PagES.DEv
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: POstwARE-2jm.PagES.DEv
+    path: /3BiOQ1rCgST9FvMj?ed=2560
+- name: 🇺🇸 US | ⬇️ 6.62 MB/s
+  network: ws
+  port: 8880
+  server: 170.114.46.177
   servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tfo: true
@@ -470,4 +453,49 @@ proxies:
   ws-opts:
     headers:
       Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+    path: /Telegram🇨🇳
+- name: 🇺🇸 US | ⬇️ 5.77 MB/s
+  network: ws
+  port: 8880
+  server: 155.46.213.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🇷🇺 RU | ⬇️ 5.75 MB/s
+  network: ws
+  port: 8880
+  server: 185.148.104.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 🇬🇧 GB | ⬇️ 5.73 MB/s
+  network: ws
+  port: 8880
+  server: 25.25.25.186
+  servername: ip.langmanshanxi.top
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
