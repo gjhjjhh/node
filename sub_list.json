@@ -10,8 +10,8 @@
     "id": 1,
     "remarks": "xiaoji235",
     "site": "https://github.com/xiaoji235/airport-free",
-    "url": "",
-    "enabled": false
+    "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes.meta.yml",
+    "enabled": true
   },
   {
     "id": 2,
