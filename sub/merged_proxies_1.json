@@ -82,149 +82,9 @@
     },
     "outbounds": [
         {
-            "password": "dongtaiwang.com",
-            "server": "108.181.5.130",
-            "server_port": 4710,
-            "tag": "🇺🇸 US | ⬇️ 35.77 MB/s",
-            "tls": {
-                "enabled": true,
-                "server_name": "apple.com",
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "server": "91.193.58.43",
-            "server_port": 8880,
-            "tag": "🇬🇧 GB | ⬇️ 33.21 MB/s",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "us.laoyoutiao.link"
-                    ]
-                },
-                "path": "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-            "packet_encoding": "xudp",
-            "tcp_fast_open": true
-        },
-        {
-            "server": "185.16.110.186",
-            "server_port": 8880,
-            "tag": "🇫🇷 FR | ⬇️ 7.02 MB/s",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "ip.langmanshanxi.top"
-                    ]
-                },
-                "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "583ceab3-4022-4553-9158-9bedc625ad4e",
-            "packet_encoding": "xudp",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "02b3e954-d056-4668-89ba-71dabdcef0e4",
-            "server": "nexiateq.688997.xyz",
-            "server_port": 20957,
-            "tag": "🇹🇷 TR | ⬇️ 6.38 MB/s",
-            "tls": {
-                "enabled": true,
-                "server_name": "nexiateq.688997.xyz",
-                "insecure": true
-            },
-            "type": "hysteria2",
-            "obfs": {
-                "password": "ZDQxZDhjZDk4ZjAwYjIwNA==",
-                "type": "salamander"
-            }
-        },
-        {
-            "server": "91.193.58.207",
-            "server_port": 8880,
-            "tag": "🇬🇧 GB | ⬇️ 25.75 MB/s",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "us.laoyoutiao.link"
-                    ]
-                },
-                "path": "/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-            "packet_encoding": "xudp",
-            "tcp_fast_open": true
-        },
-        {
-            "server": "bestcf.030101.xyz",
-            "server_port": 443,
-            "tag": "🇨🇦 CA | ⬇️ 19.27 MB/s",
-            "tls": {
-                "enabled": true,
-                "server_name": "xv6.jpmj.dpdns.org",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "xv6.jpmj.dpdns.org"
-                    ]
-                },
-                "path": "/bbs?ed=2048",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "897a4bec-26b8-11e8-94be-00505695472c",
-            "packet_encoding": "xudp",
-            "tcp_fast_open": true
-        },
-        {
-            "server": "212.183.88.29",
-            "server_port": 2087,
-            "tag": "🇦🇹 AT | ⬇️ 14.23 MB/s",
-            "tls": {
-                "enabled": true,
-                "server_name": "posTWaRe-2jM.PaGES.deV",
-                "insecure": true
-            },
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "posTWaRe-2jM.PaGES.deV"
-                    ]
-                },
-                "path": "/QHhyztm6ggdnBfC7?ed=2560",
-                "type": "ws"
-            },
-            "type": "vless",
-            "uuid": "65ee27b8-88b6-45f5-a2f8-8392c4afd82d",
-            "packet_encoding": "xudp",
-            "tcp_fast_open": true
-        },
-        {
-            "password": "dongtaiwang.com",
-            "server": "51.159.111.32",
-            "server_port": 31180,
-            "tag": "🇫🇷 FR | ⬇️ 6.00 MB/s",
-            "tls": {
-                "enabled": true,
-                "server_name": "apple.com",
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
             "server": "212.183.88.1",
             "server_port": 443,
-            "tag": "🇦🇹 AT | ⬇️ 64.94 MB/s",
+            "tag": "🇦🇹 AT | ⬇️ 46.24 MB/s",
             "tls": {
                 "enabled": true,
                 "server_name": "pages.dev",
@@ -245,9 +105,44 @@
             "tcp_fast_open": true
         },
         {
+            "password": "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b",
+            "server": "ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net",
+            "server_port": 8443,
+            "tag": "🇺🇸 US | ⬇️ 17.87 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net",
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "server": "45.142.120.192",
+            "server_port": 2053,
+            "tag": "🇧🇬 BG | ⬇️ 15.57 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "019309B7.XyZ0.PaGeS.dEV",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "019309B7.XyZ0.PaGeS.dEV"
+                    ]
+                },
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "54f6e78c-b497-4db7-ba48-38c4cf81d5ef",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
             "server": "69.84.182.169",
             "server_port": 443,
-            "tag": "🇺🇸 US | ⬇️ 22.63 MB/s",
+            "tag": "🇺🇸 US | ⬇️ 14.40 MB/s",
             "tls": {
                 "enabled": true,
                 "server_name": "ensHOLP-91s.pageS.DEv",
@@ -268,60 +163,114 @@
             "tcp_fast_open": true
         },
         {
-            "password": "dongtaiwang.com",
-            "server": "108.181.5.130",
-            "server_port": 4710,
-            "tag": "🇺🇸 US | ⬇️ 10.36 MB/s",
+            "server": "212.183.88.29",
+            "server_port": 2083,
+            "tag": "🇦🇹 AT | ⬇️ 10.06 MB/s",
             "tls": {
                 "enabled": true,
-                "server_name": "108.181.5.130",
+                "server_name": "PoStwarE-2jM.PaGeS.DEv",
                 "insecure": true
             },
-            "type": "hysteria2"
-        },
-        {
-            "password": "awsps0501",
-            "server": "3.113.25.232",
-            "server_port": 443,
-            "tag": "🇯🇵 JP | ⬇️ 32.86 MB/s",
-            "type": "shadowsocks",
-            "method": "aes-256-cfb",
-            "network": "tcp"
-        },
-        {
-            "password": "9ad05870-d8c5-11ef-9f1c-f23c913c8d2b",
-            "server": "ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net",
-            "server_port": 8443,
-            "tag": "🇺🇸 US | ⬇️ 27.17 MB/s",
-            "tls": {
-                "enabled": true,
-                "server_name": "ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net",
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "server": "185.16.110.251",
-            "server_port": 8880,
-            "tag": "🇫🇷 FR | ⬇️ 23.17 MB/s",
             "transport": {
                 "headers": {
                     "Host": [
-                        "cf.d3z.net"
+                        "PoStwarE-2jM.PaGeS.DEv"
                     ]
                 },
-                "path": "/Telegram @WangCai2 /?ed=2560",
+                "path": "/PB8ZxcORP4BTVbIC?ed=2560",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "uuid": "65ee27b8-88b6-45f5-a2f8-8392c4afd82d",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "91.193.58.245",
+            "server_port": 8880,
+            "tag": "🇬🇧 GB | ⬇️ 6.80 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "us.laoyoutiao.link"
+                    ]
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "156.238.18.76",
+            "server_port": 8880,
+            "tag": "🇯🇵 JP | ⬇️ 5.27 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "yd.laoyoutiao.link"
+                    ]
+                },
+                "path": "/Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "104.254.140.163",
+            "server_port": 443,
+            "tag": "🇺🇸 US | ⬇️ 48.35 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "tbs-80p.pages.dev"
+                    ]
+                },
+                "path": "/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "5879d109-8c92-448a-801b-3f3989019934",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "188.42.89.145",
+            "server_port": 443,
+            "tag": "🇳🇱 NL | ⬇️ 38.11 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "rAyAn-12.LeIlA.DpDnS.OrG",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "rayan-12.leila.dpdns.org"
+                    ]
+                },
+                "path": "/@Rayan_Config",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "7a80a8d9-92f9-4f0a-8352-9005a8215ab8",
             "packet_encoding": "xudp",
             "tcp_fast_open": true
         },
         {
             "server": "212.183.88.29",
             "server_port": 2083,
-            "tag": "🇦🇹 AT | ⬇️ 14.72 MB/s",
+            "tag": "🇦🇹 AT | ⬇️ 17.96 MB/s",
             "tls": {
                 "enabled": true,
                 "server_name": "POstwARE-2jm.PagES.DEv",
@@ -342,43 +291,50 @@
             "tcp_fast_open": true
         },
         {
-            "server": "156.238.18.76",
-            "server_port": 8880,
-            "tag": "🇯🇵 JP | ⬇️ 13.75 MB/s",
+            "server": "bestcf.030101.xyz",
+            "server_port": 443,
+            "tag": "🇨🇦 CA | ⬇️ 17.87 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "xv6.jpmj.dpdns.org",
+                "insecure": true
+            },
             "transport": {
                 "headers": {
                     "Host": [
-                        "yd.laoyoutiao.link"
+                        "xv6.jpmj.dpdns.org"
                     ]
                 },
-                "path": "/Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560",
+                "path": "/bbs?ed=2048",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "uuid": "897a4bec-26b8-11e8-94be-00505695472c",
             "packet_encoding": "xudp",
             "tcp_fast_open": true
         },
         {
-            "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
-            "server": "206.71.158.40",
-            "server_port": 35000,
-            "tag": "🇳🇱 NL | ⬇️ 12.03 MB/s",
-            "tls": {
-                "enabled": true,
-                "server_name": "pichondan.com",
-                "insecure": true
+            "server": "172.67.211.214",
+            "server_port": 8880,
+            "tag": "🇨🇦 CA | ⬇️ 16.37 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "vngsupply.ip-ddns.com"
+                    ]
+                },
+                "path": "/LGTE4FBhMm0wY9yE?ed=2560",
+                "type": "ws"
             },
-            "type": "hysteria2",
-            "obfs": {
-                "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
-                "type": "salamander"
-            }
+            "type": "vless",
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
         },
         {
             "server": "212.183.88.29",
             "server_port": 2096,
-            "tag": "🇦🇹 AT | ⬇️ 11.47 MB/s",
+            "tag": "🇦🇹 AT | ⬇️ 13.33 MB/s",
             "tls": {
                 "enabled": true,
                 "server_name": "pOStWArE-2Jm.PAgEs.dEv",
@@ -399,38 +355,205 @@
             "tcp_fast_open": true
         },
         {
-            "server": "156.238.18.106",
-            "server_port": 8880,
-            "tag": "🇯🇵 JP | ⬇️ 11.12 MB/s",
+            "server": "45.159.219.96",
+            "server_port": 443,
+            "tag": "🇩🇪 DE | ⬇️ 29.62 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "ConFIgmr.PaGeS.dEV",
+                "alpn": [
+                    "h2",
+                    "http/1.1"
+                ],
+                "insecure": true
+            },
             "transport": {
                 "headers": {
                     "Host": [
-                        "yd.laoyoutiao.link"
+                        "configmr.pages.dev"
                     ]
                 },
-                "path": "/Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560",
+                "path": "/telegram@v2ray_configs_pools/?ed=2560",
                 "type": "ws"
             },
             "type": "vless",
-            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "uuid": "63005378-e32e-4e23-bc6e-84812f147a6f",
             "packet_encoding": "xudp",
             "tcp_fast_open": true
         },
         {
-            "password": "02b3e954-d056-4668-89ba-71dabdcef0e4",
-            "server": "nexiabx.688997.xyz",
-            "server_port": 20857,
-            "tag": "🇧🇷 BR | ⬇️ 9.18 MB/s",
+            "password": "65a43b6e-19c5-4fab-b960-d110a07d66a4",
+            "server": "209.141.47.127",
+            "server_port": 3234,
+            "tag": "🇺🇸 US | ⬇️ 23.42 MB/s",
             "tls": {
                 "enabled": true,
-                "server_name": "nexiabx.688997.xyz",
+                "server_name": "209.141.47.127",
                 "insecure": true
             },
-            "type": "hysteria2",
-            "obfs": {
-                "password": "ZDQxZDhjZDk4ZjAwYjIwNA==",
-                "type": "salamander"
-            }
+            "type": "hysteria2"
+        },
+        {
+            "server": "212.183.88.29",
+            "server_port": 2087,
+            "tag": "🇦🇹 AT | ⬇️ 16.05 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "posTWaRe-2jM.PaGES.deV",
+                "insecure": true
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "posTWaRe-2jM.PaGES.deV"
+                    ]
+                },
+                "path": "/QHhyztm6ggdnBfC7?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "65ee27b8-88b6-45f5-a2f8-8392c4afd82d",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "104.16.86.73",
+            "server_port": 8880,
+            "tag": "🇨🇦 CA | ⬇️ 14.75 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "vngsupply.ip-ddns.com"
+                    ]
+                },
+                "path": "/",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "45.12.30.165",
+            "server_port": 2053,
+            "tag": "🇬🇧 GB | ⬇️ 14.34 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "019309B7.XyZ0.PaGeS.dEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "019309B7.XyZ0.PaGeS.dEV"
+                    ]
+                },
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "54f6e78c-b497-4db7-ba48-38c4cf81d5ef",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "31.44.4.107",
+            "server_port": 8443,
+            "tag": "🇺🇸 US | ⬇️ 13.33 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "zula.ir"
+                    ]
+                },
+                "path": "/",
+                "type": "http",
+                "host": [
+                    "zula.ir"
+                ],
+                "method": "GET"
+            },
+            "type": "vless",
+            "uuid": "d13b3634-094c-41fd-8154-76a512662dbe",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "45.131.6.124",
+            "server_port": 2053,
+            "tag": "🇧🇿 BZ | ⬇️ 13.11 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "019309B7.XyZ0.PaGeS.dEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "019309B7.XyZ0.PaGeS.dEV"
+                    ]
+                },
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "54f6e78c-b497-4db7-ba48-38c4cf81d5ef",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "114.129.43.251",
+            "server_port": 8880,
+            "tag": "🏳️ NZ | ⬇️ 7.81 MB/s",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "cf.d3z.net"
+                    ]
+                },
+                "path": "/TelegramU0001F1E8U0001F1F3",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
+        },
+        {
+            "server": "147.185.161.46",
+            "server_port": 2053,
+            "tag": "🇺🇸 US | ⬇️ 7.00 MB/s",
+            "tls": {
+                "enabled": true,
+                "server_name": "019309B7.XyZ0.PaGeS.dEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "019309B7.XyZ0.PaGeS.dEV"
+                    ]
+                },
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "type": "ws"
+            },
+            "type": "vless",
+            "uuid": "54f6e78c-b497-4db7-ba48-38c4cf81d5ef",
+            "packet_encoding": "xudp",
+            "tcp_fast_open": true
         },
         {
             "default": "🗽 自动",
@@ -477,26 +600,28 @@
         {
             "interrupt_exist_connections": true,
             "outbounds": [
-                "🇺🇸 US | ⬇️ 35.77 MB/s",
-                "🇬🇧 GB | ⬇️ 33.21 MB/s",
-                "🇫🇷 FR | ⬇️ 7.02 MB/s",
-                "🇹🇷 TR | ⬇️ 6.38 MB/s",
-                "🇬🇧 GB | ⬇️ 25.75 MB/s",
-                "🇨🇦 CA | ⬇️ 19.27 MB/s",
-                "🇦🇹 AT | ⬇️ 14.23 MB/s",
-                "🇫🇷 FR | ⬇️ 6.00 MB/s",
-                "🇦🇹 AT | ⬇️ 64.94 MB/s",
-                "🇺🇸 US | ⬇️ 22.63 MB/s",
-                "🇺🇸 US | ⬇️ 10.36 MB/s",
-                "🇯🇵 JP | ⬇️ 32.86 MB/s",
-                "🇺🇸 US | ⬇️ 27.17 MB/s",
-                "🇫🇷 FR | ⬇️ 23.17 MB/s",
-                "🇦🇹 AT | ⬇️ 14.72 MB/s",
-                "🇯🇵 JP | ⬇️ 13.75 MB/s",
-                "🇳🇱 NL | ⬇️ 12.03 MB/s",
-                "🇦🇹 AT | ⬇️ 11.47 MB/s",
-                "🇯🇵 JP | ⬇️ 11.12 MB/s",
-                "🇧🇷 BR | ⬇️ 9.18 MB/s"
+                "🇦🇹 AT | ⬇️ 46.24 MB/s",
+                "🇺🇸 US | ⬇️ 17.87 MB/s",
+                "🇧🇬 BG | ⬇️ 15.57 MB/s",
+                "🇺🇸 US | ⬇️ 14.40 MB/s",
+                "🇦🇹 AT | ⬇️ 10.06 MB/s",
+                "🇬🇧 GB | ⬇️ 6.80 MB/s",
+                "🇯🇵 JP | ⬇️ 5.27 MB/s",
+                "🇺🇸 US | ⬇️ 48.35 MB/s",
+                "🇳🇱 NL | ⬇️ 38.11 MB/s",
+                "🇦🇹 AT | ⬇️ 17.96 MB/s",
+                "🇨🇦 CA | ⬇️ 17.87 MB/s",
+                "🇨🇦 CA | ⬇️ 16.37 MB/s",
+                "🇦🇹 AT | ⬇️ 13.33 MB/s",
+                "🇩🇪 DE | ⬇️ 29.62 MB/s",
+                "🇺🇸 US | ⬇️ 23.42 MB/s",
+                "🇦🇹 AT | ⬇️ 16.05 MB/s",
+                "🇨🇦 CA | ⬇️ 14.75 MB/s",
+                "🇬🇧 GB | ⬇️ 14.34 MB/s",
+                "🇺🇸 US | ⬇️ 13.33 MB/s",
+                "🇧🇿 BZ | ⬇️ 13.11 MB/s",
+                "🏳️ NZ | ⬇️ 7.81 MB/s",
+                "🇺🇸 US | ⬇️ 7.00 MB/s"
             ],
             "tag": "🗽 自动",
             "type": "urltest"
@@ -504,9 +629,7 @@
         {
             "interrupt_exist_connections": true,
             "outbounds": [
-                "🇯🇵 JP | ⬇️ 32.86 MB/s",
-                "🇯🇵 JP | ⬇️ 13.75 MB/s",
-                "🇯🇵 JP | ⬇️ 11.12 MB/s"
+                "🇯🇵 JP | ⬇️ 5.27 MB/s"
             ],
             "tag": "🌏 亚洲",
             "type": "urltest"
@@ -514,12 +637,15 @@
         {
             "interrupt_exist_connections": true,
             "outbounds": [
-                "🇺🇸 US | ⬇️ 35.77 MB/s",
-                "🇨🇦 CA | ⬇️ 19.27 MB/s",
-                "🇺🇸 US | ⬇️ 22.63 MB/s",
-                "🇺🇸 US | ⬇️ 10.36 MB/s",
-                "🇺🇸 US | ⬇️ 27.17 MB/s",
-                "🇧🇷 BR | ⬇️ 9.18 MB/s"
+                "🇺🇸 US | ⬇️ 17.87 MB/s",
+                "🇺🇸 US | ⬇️ 14.40 MB/s",
+                "🇺🇸 US | ⬇️ 48.35 MB/s",
+                "🇨🇦 CA | ⬇️ 17.87 MB/s",
+                "🇨🇦 CA | ⬇️ 16.37 MB/s",
+                "🇺🇸 US | ⬇️ 23.42 MB/s",
+                "🇨🇦 CA | ⬇️ 14.75 MB/s",
+                "🇺🇸 US | ⬇️ 13.33 MB/s",
+                "🇺🇸 US | ⬇️ 7.00 MB/s"
             ],
             "tag": "🌎 美洲",
             "type": "urltest"
@@ -528,12 +654,11 @@
             "interrupt_exist_connections": true,
             "interval": "5m",
             "outbounds": [
-                "🇬🇧 GB | ⬇️ 33.21 MB/s",
-                "🇫🇷 FR | ⬇️ 7.02 MB/s",
-                "🇬🇧 GB | ⬇️ 25.75 MB/s",
-                "🇫🇷 FR | ⬇️ 6.00 MB/s",
-                "🇫🇷 FR | ⬇️ 23.17 MB/s",
-                "🇳🇱 NL | ⬇️ 12.03 MB/s"
+                "🇬🇧 GB | ⬇️ 6.80 MB/s",
+                "🇳🇱 NL | ⬇️ 38.11 MB/s",
+                "🇩🇪 DE | ⬇️ 29.62 MB/s",
+                "🇬🇧 GB | ⬇️ 14.34 MB/s",
+                "🇧🇿 BZ | ⬇️ 13.11 MB/s"
             ],
             "tag": "🌍 欧洲",
             "type": "urltest"
