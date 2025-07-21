@@ -1,11 +1,11 @@
 proxy-providers:
   bastsub:
     type: http
-    url: https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/speed.yaml
+    url: https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
     interval: 3600
     path: ./proxies/bastsub.yaml
     health-check:
       enable: true
       timeout: 800
       interval: 300
-      url: https://www.google.com/generate_204
+      url: https://cn.pornhub.com
