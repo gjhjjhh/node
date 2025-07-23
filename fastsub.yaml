@@ -1,6 +1,35 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 79.86 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 74.89 MB/s"
+      network: ws
+      port: 8880
+      server: 147.185.161.251
+      servername: Telegram-channel-WangCai2
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 68.78 MB/s"
+      network: ws
+      port: 443
+      server: 188.42.89.145
+      servername: rAyAn-12.LeIlA.DpDnS.OrG
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+      ws-opts:
+        headers:
+            Host: rayan-12.leila.dpdns.org
+        path: /@Rayan_Config
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 62.48 MB/s"
       network: ws
       port: 80
       server: 104.18.26.90
@@ -15,22 +44,7 @@ proxies:
             Host: blaze-can-118.blazecanada.site
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 41.82 MB/s"
-      network: ws
-      port: 443
-      server: 188.42.89.145
-      servername: rAyAn-12.LeIlA.DpDnS.OrG
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-      ws-opts:
-        headers:
-            Host: rayan-12.leila.dpdns.org
-        path: /@Rayan_Config
-    - client-fingerprint: chrome
-      name: "\U0001F3F3️ NZ | ⬇️ 22.04 MB/s"
+      name: "\U0001F3F3️ NZ | ⬇️ 53.61 MB/s"
       network: ws
       port: 8880
       server: 114.129.43.251
@@ -43,7 +57,54 @@ proxies:
         headers:
             Host: cf.d3z.net
         path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.51 MB/s"
+    - client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 43.46 MB/s"
+      network: ws
+      port: 443
+      server: 172.64.68.58
+      servername: hai.gdz.buzz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8f7fe273-e06d-47d5-9deb-d7b3c95dc573
+      ws-opts:
+        headers:
+            Host: hai.gdz.buzz
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.28 MB/s"
+      network: ws
+      port: 8880
+      server: 159.246.55.6
+      servername: VngSuPpLY.IP-DdnS.com
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+      ws-opts:
+        headers:
+            Host: VngSuPpLY.IP-DdnS.com
+        path: /Etb1L6YUdZFZuTOr?ed=2560
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: randomized
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.67 MB/s"
+      network: ws
+      port: 443
+      server: 172.66.45.24
+      servername: reAl-madrID9248.pagEs.dEv
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f744c2dc-1359-494c-9808-d81ce7665d58
+      ws-opts:
+        headers:
+            Host: reAl-madrID9248.pagEs.dEv
+        path: /LQlBRp7bKt33t0q2?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.33 MB/s"
       network: ws
       port: 8880
       server: 168.100.6.100
@@ -59,22 +120,49 @@ proxies:
         path: /1ycR2zb3KeELWRha
     - alpn:
         - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.39 MB/s"
+      client-fingerprint: randomized
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.81 MB/s"
       network: ws
       port: 443
-      server: 172.67.206.152
-      servername: EDfrT.frEEvPNatm2025.DPdNS.oRG
+      server: 104.16.3.5
+      servername: gulf-d96.pages.dev
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+      uuid: 963816bd-b6e7-4648-abff-8af25bc07d87
       ws-opts:
         headers:
-            Host: EDfrT.frEEvPNatm2025.DPdNS.oRG
-        path: /O9jlBCbIm3xr1D40NK
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.97 MB/s"
+            Host: gulf-d96.pages.dev
+        path: /ecY3gziM8W6ud5yj?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.74 MB/s"
+      network: ws
+      port: 8443
+      server: 172.66.47.61
+      servername: gghdfa.pages.dev
+      tls: true
+      type: vless
+      uuid: a396b860-11b7-4af3-9950-146caf79735e
+      ws-opts:
+        headers:
+            Host: gghdfa.pages.dev
+        path: /8WuhXm4QjK0L68Uf?ed=2560
+    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 15.37 MB/s"
+      network: ws
+      port: 8880
+      server: 45.131.209.36
+      servername: vngsupply.ip-ddns.com
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+      ws-opts:
+        headers:
+            Host: vngsupply.ip-ddns.com
+        path: /J5aLQOY1R9ONWYCM
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 11.35 MB/s"
       network: ws
       port: 8880
       server: 45.85.119.151
@@ -88,76 +176,7 @@ proxies:
         headers:
             Host: vngsupply.ip-ddns.com
         path: /J5aLQOY1R9ONWYCM
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.74 MB/s"
-      network: ws
-      port: 8880
-      server: 147.185.161.251
-      servername: Telegram-channel-WangCai2
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-    - name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 13.01 MB/s"
-      network: ws
-      port: 2096
-      server: 212.183.88.29
-      servername: pOStWArE-2Jm.PAgEs.dEv
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-      ws-opts:
-        headers:
-            Host: pOStWArE-2Jm.PAgEs.dEv
-        path: /ssqKt5JYIXEwDOMJ?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.20 MB/s"
-      network: ws
-      port: 8443
-      server: 172.66.47.61
-      servername: gghdfa.pages.dev
-      tls: true
-      type: vless
-      uuid: a396b860-11b7-4af3-9950-146caf79735e
-      ws-opts:
-        headers:
-            Host: gghdfa.pages.dev
-        path: /8WuhXm4QjK0L68Uf?ed=2560
-    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.89 MB/s"
-      network: ws
-      port: 8880
-      server: 185.148.104.141
-      servername: VngSuPpLY.IP-DdnS.com
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
-      ws-opts:
-        headers:
-            Host: VngSuPpLY.IP-DdnS.com
-        path: /Etb1L6YUdZFZuTOr?ed=2560
-    - name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 10.60 MB/s"
-      network: ws
-      port: 2053
-      server: 212.183.88.29
-      servername: PostwaRE-2jm.PaGES.DEv
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-      ws-opts:
-        headers:
-            Host: PostwaRE-2jm.PaGES.DEv
-        path: /JkT5yFwh3Mveqw81?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.31 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.07 MB/s"
       network: ws
       port: 8880
       server: 198.62.62.175
